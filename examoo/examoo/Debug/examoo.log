@@ -1,0 +1,35 @@
+﻿Build started 24.12.2011 18:31:29.
+Project "C:\Users\nadja\Desktop\Dropbox\School\gfxprog\home exam\examoo\examoo\examoo.vcxproj" on node 2 (build target(s)).
+PrepareForBuild:
+  Creating directory "C:\Users\nadja\Desktop\Dropbox\School\gfxprog\home exam\examoo\Debug\".
+InitializeBuildStatus:
+  Creating "Debug\examoo.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt box2d.cpp camera.cpp craft.cpp examoo.cpp gui.cpp plane.cpp
+  plane.cpp
+  gui.cpp
+  examoo.cpp
+c:\users\nadja\desktop\dropbox\school\gfxprog\home exam\examoo\examoo\examoo.cpp(394): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+  craft.cpp
+  camera.cpp
+  box2d.cpp
+  Generating Code...
+Link:
+  c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\nadja\Desktop\Dropbox\School\gfxprog\home exam\examoo\Debug\examoo.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\examoo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\nadja\Desktop\Dropbox\School\gfxprog\home exam\examoo\Debug\examoo.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\nadja\Desktop\Dropbox\School\gfxprog\home exam\examoo\Debug\examoo.lib" /MACHINE:X86 Debug\box2d.obj
+  Debug\camera.obj
+  Debug\craft.obj
+  Debug\examoo.obj
+  Debug\gui.obj
+  Debug\plane.obj
+  examoo.vcxproj -> C:\Users\nadja\Desktop\Dropbox\School\gfxprog\home exam\examoo\Debug\examoo.exe
+Manifest:
+  c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\nadja\Desktop\Dropbox\School\gfxprog\home exam\examoo\Debug\examoo.exe;#1" /manifest Debug\examoo.exe.intermediate.manifest
+FinalizeBuildStatus:
+  Deleting file "Debug\examoo.unsuccessfulbuild".
+  Touching "Debug\examoo.lastbuildstate".
+Done Building Project "C:\Users\nadja\Desktop\Dropbox\School\gfxprog\home exam\examoo\examoo\examoo.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:18.42
